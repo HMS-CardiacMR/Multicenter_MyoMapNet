@@ -1,7 +1,5 @@
-import sys
 import matplotlib.pyplot as plt
-sys.path.insert(1, '/mnt/alp/Users/Amine/Code/MyoMapNet_Multicenter_V2')
-from architectures.Unet import Unet
+from architecture.Unet import Unet
 from torch.autograd import Variable
 from scipy.io import loadmat
 import numpy.matlib
