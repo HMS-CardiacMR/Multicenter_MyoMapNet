@@ -12,7 +12,6 @@ import os
 
 seed_num = 888
 
-# Loading training and validation dataset
 print("Loading data for testing")
 path = "Path_to_BMC_Data"
 
