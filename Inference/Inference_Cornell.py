@@ -1,4 +1,4 @@
-from architectures.Unet import Unet
+from architecture.Unet import Unet
 from torch.autograd import Variable
 import matplotlib.pyplot as plt
 from scipy.io import loadmat
