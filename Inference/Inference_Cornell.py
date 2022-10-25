@@ -1,5 +1,3 @@
-import sys
-sys.path.insert(1, '/mnt/alp/Users/Amine/Code/MyoMapNet_Multicenter_V2')
 from architectures.Unet import Unet
 from torch.autograd import Variable
 import matplotlib.pyplot as plt
