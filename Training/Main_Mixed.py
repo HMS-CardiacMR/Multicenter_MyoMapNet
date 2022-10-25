@@ -3,7 +3,7 @@ import random
 from torch.optim import Adam
 from torch.nn.modules.loss import L1Loss
 from torch.autograd import Variable
-from architectures.Unet import Unet, save_models
+from architecture.Unet import Unet, save_models
 from sklearn.utils import shuffle
 import matplotlib.pyplot as plt
 from tqdm import tqdm
