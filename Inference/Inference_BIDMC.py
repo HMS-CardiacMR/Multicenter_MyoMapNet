@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 from scipy.io import loadmat
 import matplotlib.pyplot as plt
-from architectures.Unet import Unet
+from architecture.Unet import Unet
 import torch
 from torch.autograd import Variable
 import numpy as np
